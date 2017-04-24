@@ -226,20 +226,24 @@ svg {
 /*    NARROW AND MOBILE   */
 
 @media screen and (max-width: 768px) {
+	body {
+		overflow: hidden;
+  	}
+  
+  	header {
+		top: 0;
+	}
+		
+  	h1 {
+    	font-size: 5.5vw;
+  	}
+
   .container > *:hover, .container > *:active {
-    -webkit-box-flex: 2;
-    -ms-flex-positive: 2;
-    flex-grow: 2;
+    -webkit-box-flex: 4;
+    -ms-flex-positive: 4;
+    flex-grow: 4;
   }
-
-  h1 {
-    font-size: 5.5vw;
-  }
-
-  h1 span {
-    white-space: nowrap;
-  }
-
+  
   .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
