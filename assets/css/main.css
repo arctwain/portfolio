@@ -130,6 +130,7 @@ svg {
 
 	body {
   		background: none;
+		overflow: hidden;
 	}
 
 	header {
